@@ -216,7 +216,17 @@ footer {
     .nav p {
         font-size: 22px; 
     }
+
+
+ .row {
+        flex-direction: column;
+        gap: 15px;
+    }
+   
+    .booking-container {
+        padding: 20px;
+    }
 }
 
-
 /* / Responsive */
+
