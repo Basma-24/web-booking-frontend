@@ -199,16 +199,24 @@ footer {
 /* / Footer */
 
 /* Responsive */
-@media (max-width: 600px) {
-    .row {
-        flex-direction: column;
+
+@media (max-width: 768px) {
+    .nav {
+        padding: 15px 20px;
+        flex-direction: column;   
+        gap: 10px;
+    }
+
+    .nav ul {
         gap: 15px;
+        flex-wrap: wrap;         
+        justify-content: center;
     }
-    .nav-links {
-        display: none; 
-    }
-    .booking-container {
-        padding: 20px;
+
+    .nav p {
+        font-size: 22px; 
     }
 }
+
+
 /* / Responsive */
