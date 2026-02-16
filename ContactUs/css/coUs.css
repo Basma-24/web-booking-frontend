@@ -162,7 +162,22 @@ body {
 /* Responsive */
 
 @media (max-width: 768px) {
-    .contact-grid { grid-template-columns: 1fr; }
-    .nav-links { display: none; }
+    .nav {
+        padding: 15px 20px;
+        flex-direction: column;   
+        gap: 10px;
+    }
+
+    .nav ul {
+        gap: 15px;
+        flex-wrap: wrap;         
+        justify-content: center;
+    }
+
+    .nav p {
+        font-size: 22px; 
+    }
 }
+
+
 /* / Responsive */
