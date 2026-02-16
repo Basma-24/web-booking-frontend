@@ -123,9 +123,25 @@ body {
 /* / footer */
 
 /* Responsive */
+
 @media (max-width: 768px) {
-    .nav-links { display: none; } 
-    .content-side { text-align: center; margin-bottom: 20px; }
+    .nav {
+        padding: 15px 20px;
+        flex-direction: column;   
+        gap: 10px;
+    }
+
+    .nav ul {
+        gap: 15px;
+        flex-wrap: wrap;         
+        justify-content: center;
+    }
+
+    .nav p {
+        font-size: 22px; 
+    }
 }
+
+
 /* / Responsive */
 
