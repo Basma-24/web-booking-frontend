@@ -196,11 +196,26 @@ footer {
 }
 /* /Footer */
 
-
 /* Responsive */
+
 @media (max-width: 768px) {
-    .hero-content h1 { font-size: 2rem; }
-    .nav-links { display: none; }
-    .card { width: 100%; max-width: 400px; }
+    .nav {
+        padding: 15px 20px;
+        flex-direction: column;   
+        gap: 10px;
+    }
+
+    .nav ul {
+        gap: 15px;
+        flex-wrap: wrap;         
+        justify-content: center;
+    }
+
+    .nav p {
+        font-size: 22px; 
+    }
 }
-/* /Responsive */
+
+
+/* / Responsive */
+
