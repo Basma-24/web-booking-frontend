@@ -177,7 +177,10 @@ body {
     .nav p {
         font-size: 22px; 
     }
+        .contact-grid { grid-template-columns: 1fr; }
+
 }
 
 
 /* / Responsive */
+
